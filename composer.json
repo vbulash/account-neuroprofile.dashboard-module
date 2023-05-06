@@ -1,6 +1,7 @@
 {
     "name": "vbulash/account-neuroprofile.dashboard-module",
     "description": "Панель управления личного кабинета нейропрофилирования",
+    "license": "MIT",
 	"type": "laravel-module",
     "authors": [
         {
@@ -8,6 +9,9 @@
             "email": "vbulash@yandex.ru"
         }
     ],
+    "require": {
+        "nwidart/laravel-modules": "^10.0"
+    },
     "extra": {
         "laravel": {
             "providers": [],
