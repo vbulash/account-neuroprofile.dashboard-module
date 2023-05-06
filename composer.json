@@ -3,6 +3,7 @@
     "description": "Панель управления личного кабинета нейропрофилирования",
     "license": "MIT",
 	"type": "laravel-module",
+    "version": "1.0",
     "authors": [
         {
             "name": "Валерий Булаш",
