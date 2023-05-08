@@ -3,7 +3,7 @@
     "description": "Панель управления личного кабинета нейропрофилирования",
     "license": "MIT",
 	"type": "laravel-module",
-    "version": "2.1",
+    "version": "2.2",
     "authors": [
         {
             "name": "Валерий Булаш",
@@ -24,6 +24,14 @@
     "autoload": {
         "psr-4": {
             "Modules\\Dashboard\\": ""
+        }
+    },
+    "require-dev": {
+        "vbulash/laravel-module-installer": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "vbulash/laravel-module-installer": true
         }
     }
 }
